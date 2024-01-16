@@ -190,7 +190,92 @@ width: 500px;
 height: 220px;
 flex-shrink: 0;
 }
-
+.image-container, .image-container-1, .image-container-2, .image-container-3, .image-container-4, .image-container-5, .image-container-6 {
+    position: relative;
+    display: inline-block;
+  }
+.image-text, .image-text-1, .image-text-2, .image-text-3, .image-text-4, .image-text-5, .image-text-6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 800;
+  }
+.head-12{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 30px;
+font-weight: 800;
+}
+.head-13{
+color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+width: 500px;
+padding-left: 200px;
+}
+  .choose{
+    display: flex;
+    justify-content: space-between;
+  }
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 400px;
+height: 160px;
+flex-shrink: 0;
+}
+.hostel-img, .map-img, .price-img{
+    padding-top: 20px;
+    padding-left: 20px;
+width: 40px;
+height: 40px;
+flex-shrink: 0;
+}
+.head-14, .head-16, .head-18{
+color: #131318;
+margin: 10px 0 10px 15px;
+text-align: left;
+font-family: Mulish;
+font-size: 15px;
+font-weight: 800;
+}
+.head-15, .head-17, .head-19{
+margin: 10px 0 10px 15px;
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+width: 280px;
+}
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 400px;
+height: 160px;
+flex-shrink: 0;
+}
+.price{
+    margin: 20px 20px 20px 250px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 395px;
+height: 160px;
+flex-shrink: 0;
+}
 @media screen and (max-width:600px){
     header{
         padding: 5px;
@@ -263,6 +348,9 @@ line-height: 10px;
     .ig, .ig-1, .ig-2, .ig-3, .ig-4, .ig-5{
        width: 500%;
        height: 200px;
+    }
+    .image-text, .image-text-1, .image-text-2, .image-text-3, .image-text-4, .image-text-5, .image-text-6 {
+        padding-left: 240px;
     }
 
 }
