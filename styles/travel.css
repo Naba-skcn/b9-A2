@@ -72,7 +72,7 @@ padding-top: 0px;
 background-color: rgba(255, 255, 255, 0.30);
 border-radius: 8px;
 display: inline-flex;
-margin-left: 150px;
+margin-left: 165px;
 margin-bottom: 80px;
 padding: 16px;
 align-items: flex-start;
@@ -206,12 +206,17 @@ flex-shrink: 0;
     font-family: Mulish;
     font-weight: 800;
   }
-.head-12{
+.head-12, .head-20{
 color: #131318;
 text-align: center;
 font-family: Mulish;
 font-size: 30px;
 font-weight: 800;
+}
+.head-20{ margin-top: -10px;
+font-size: 35px;}
+.head-21{
+    color: #FF5400;
 }
 .head-13{
 color: rgba(19, 19, 24, 0.70);
@@ -276,6 +281,55 @@ flex-shrink: 0;
 height: 160px;
 flex-shrink: 0;
 }
+.ex-1-1, .ex-2-1, .ex-3-1{
+    font-family: Mulish;
+    font-size: 16px;
+    }
+    .ex-1-2, .ex-2-2, .ex-3-2{
+        color: #FF5400;
+    }
+.extra-1, .extra-2, .extra-3{
+    background-color: lightgoldenrodyellow;
+    gap: 25px;
+    width: 500px;
+    border-radius: 10px;
+    border: #424247;
+    margin-top: 10px;
+    margin-left: 400px;
+    transition: width 3s ease-in-out 1s , background-color 2s linear 1s, color 2s linear 1s;
+}
+.ex-1, .ex-2, .ex-3{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 15px 2px 10px 5px;
+}
+.extra-1, .extra-2, .extra-3{
+    display: flex;
+}
+.extra-1:hover{
+    width: 700px;
+    background-color: #131318;
+    color: #FFF;
+}
+.extra-2:hover{
+    width: 700px;
+    background-color: #131318;
+    color: #FFF;
+}
+ .extra-3:hover{
+    width: 700px;
+    background-color: #131318;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:600px){
     header{
         padding: 5px;
@@ -330,12 +384,16 @@ line-height: 10px;
         width: 200px;
         padding-left: 2px;
     }
-    .head-10{
+    .head-9 > li{
+         width: 220px;
+         padding-right: 280px;
+    }
+    .head-10, .head-12{
         text-align: center;
         font-size: 20px;
         padding-right: 300px;
     }
-    .head-11{
+    .head-11, .head-13{
         font-size: 12px;
         width: 250px;
         padding-left: 10px ;
@@ -352,5 +410,55 @@ line-height: 10px;
     .image-text, .image-text-1, .image-text-2, .image-text-3, .image-text-4, .image-text-5, .image-text-6 {
         padding-left: 240px;
     }
+    .choose{
+        flex-direction: column;
+        gap:10px;
+     }
+    .hotel, .map, .price{
+        width: 280px;
+        height: 150px;
+        font-size: 10px;
+    }
+    .price{
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .head-15, .head-17, .head-19{
+        font-size: 12px;
+        width: 220px;
+    }
+    .head-20{
+        font-size: 25px;
+        width: 250px;
+        padding-left: 20px ;
+    }
+    .extra-1, .extra-2, .extra-3{
+        width: 280px;
+        height: 150px;
+        margin-left: 5px;
+    }
+    .ex-1, .ex-2, .ex-3{
+        width: 150px;
+        height: auto;
+    }
+    .ex-1-1, .ex-2-1, .ex-3-1{
+        font-size: 9px;
+    }
+    .extra-1:hover{
+        width: 280px;
+        background-color: #131318;
+        color: #FFF;
+    }
+    .extra-2:hover{
+        width: 280px;
+        background-color: #131318;
+        color: #FFF;
+    }
+     .extra-3:hover{
+        width: 280px;
+        background-color: #131318;
+        color: #FFF;
+    }
+    
 
 }
