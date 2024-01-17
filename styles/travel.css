@@ -322,11 +322,121 @@ flex-shrink: 0;
     background-color: #131318;
     color: #FFF;
 }
+.Newsletter{
+    display: flex;
+    
+}
+.new{
+    background: #FFF;
+    width: 300px;
+height: 250px;
+border-radius: 16px;
+border: 1px solid #FF5400;
+margin-left: 200px;
+margin-top: 20px;
+padding: 10px 20px 1px;
+}
+.inputs > input{
+    display: block;
+}
+.new-1{
+    color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.new-2{
+color: #5A5A5D;
+font-family: Mulish;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+}
+.news-img{
+    width: 500px;
+height: 260px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+margin-right: 1200px;
+margin-left: 100px;
+margin-top: 20px;
+}
+.name, .email{
+    margin-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 117px;
+    border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: #FFF;
+height: 22px;
+}
+.button{
+    padding-left: 120px;
+    padding-right: 120px;
+    border-radius: 8px;
+background: #FF5400;
+border: #FFF;
+height: 30px;
+color: white;
+}
+.tag{
+border-radius: 16px;
+background: #FF5400;
+width: 180px;
+height: 70px;
+transform: rotate(-20.628deg);
+margin-left: -1410px;
+margin-top: 180px ;
+margin-bottom: 15px;
+}
+.new-3{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 400;
+}
+.new-4{
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 800;
+margin-bottom: 10px;
+line-height: 3px;
+}
 
 
-
-
-
+footer{
+     background: rgba(19, 19, 24, 0.05);
+     text-align: center;
+}
+.footer-title{
+    color: var(--Dark-01, #131318);
+font-family: Mulish;
+font-size: 32px;
+font-weight: 800;
+}
+.foot-2{
+    color: #FF5400;
+}
+.f-img{
+    height: 80px;
+    width: 80px;
+    padding: 1px 2px 1px -10px; 
+}
+.foot-3, .foot-4{
+    color: #5A5A5D;
+text-align: center;
+font-family: Mulish;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+}
+.f-img-2{
+    padding-bottom: 10px;
+}
 
 
 
@@ -374,7 +484,7 @@ line-height: 10px;
     .bg-2{
         flex-direction: column;
     }
-    .img-1{
+    .img-1, .news-img{
         width: 50%;
         height: auto;
         margin: 15px 250px auto 0px ;
@@ -427,7 +537,7 @@ line-height: 10px;
         font-size: 12px;
         width: 220px;
     }
-    .head-20{
+    .head-20, .footer-title{
         font-size: 25px;
         width: 250px;
         padding-left: 20px ;
@@ -459,6 +569,31 @@ line-height: 10px;
         background-color: #131318;
         color: #FFF;
     }
-    
+    footer{
+        width: 60%;
+    }
+   .f-img-2{
+    padding-right: 30px;
+    width: 100px;
+   }
+   .foot-3, .foot-4{
+    font-size: 12px;
+    width: 250px;
+    padding-left: 50px ;
+}
+.Newsletter{
+    flex-direction: column;
+}
+.new{
+    width: 220px;
+    margin-left: 20px;
+}
+.name, .email{
+    width: 100px;
+}
+.button{
+    width: 100px;
+    padding-left: 80px;
+}
 
 }
